@@ -1,0 +1,20 @@
+[project]
+name = "titanic-mlp"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "chheangg",email = "balldremz@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12, <3.13"
+dependencies = [
+    "torch (>=2.10.0,<3.0.0)",
+    "pandas (>=3.0.0,<4.0.0)",
+    "numpy (>=2.4.1,<3.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
