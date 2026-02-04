@@ -1,4 +1,4 @@
-,Survived,Age,Parch,Fare,FamilySize,IsAlone_1,Pclass_2,Pclass_3,Sex_male,Deck_DE,Deck_FG,Deck_U,Embarked_Q,Embarked_S
+  ,Survived,Age,Parch,Fare,FamilySize,IsAlone_1,Pclass_2,Pclass_3,Sex_male,Deck_DE,Deck_FG,Deck_U,Embarked_Q,Embarked_S
 0,0,22.0,0,7.25,2,False,False,True,True,False,False,True,False,True
 1,1,38.0,0,71.2833,2,False,False,False,False,False,False,False,False,False
 2,1,26.0,0,7.925,1,True,False,True,False,False,False,True,False,True

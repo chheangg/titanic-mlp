@@ -8,11 +8,11 @@ class MLP(nn.Module):
             # first layer (64 units)
             nn.LazyLinear(64), nn.ReLU(),
             # first hidden layer (32 units)
-            nn.LazyLinear(32), nn.LazyBatchNorm1d(), nn.ReLU(), nn.Dropout(),
+            nn.LazyLinear(32), nn.LazyBatchNorm1d(), nn.ReLU(), nn.Dropout(p=0.3),
             # second hidden layer (16 units)
-            nn.LazyLinear(16), nn.LazyBatchNorm1d(), nn.ReLU(), nn.Dropout(),
+            nn.LazyLinear(16), nn.LazyBatchNorm1d(), nn.ReLU(), nn.Dropout(p=0.3),
             # third hidden layer (8 units)
-            nn.LazyLinear(8), nn.LazyBatchNorm1d(), nn.ReLU(), nn.Dropout(),
+            nn.LazyLinear(8), nn.LazyBatchNorm1d(), nn.ReLU(), nn.Dropout(p=0.3),
             # final output layer
             nn.LazyLinear(1))
     
