@@ -1,2 +1,2 @@
 # titanic-mlp
-Titanic Passenger Prediction using a MLP model
+Titanic Passenger Prediction using an MLP model.
